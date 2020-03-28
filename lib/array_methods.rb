@@ -1,19 +1,24 @@
-def
-famous_cats = ["Felix", "Tom", "Garfield"]
-famous_cats.include? ("Nala")
+def using_include(array, element)
+  array.include?(element)
 end
 
-famous_cats.sort 
+def using_sort(array)
+  array.sort 
 end
 
-famous_cats.reverse
+def using_reverse(array)
+  array.reverse 
 end
 
-famous_cats.first 
-end
-
-famous_cats.last 
+def using_first(array)
+  array.first 
 end 
 
-famous_cats.size 
-end 
+def using_last(array)
+  array.last 
+end
+
+def using_size(array)
+  array.size 
+end  
+
